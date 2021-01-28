@@ -1,0 +1,124 @@
+            /* media */
+            
+            @media (min-width:576px) {
+                .container {
+                    max-width: 540px;
+                }
+            }
+            
+            @media (min-width:768px) {
+                .container {
+                    max-width: 720px;
+                }
+            }
+            
+            @media (min-width:992px) {
+                .container {
+                    max-width: 960px;
+                }
+            }
+            /* media */
+            
+            @media (min-width:1200px) {
+                .container {
+                    max-width: 1152px;
+                }
+            }
+            
+            @media (max-width:1199px) {
+                .navbar ul li a {
+                    padding: 1rem;
+                }
+            }
+            /* media */
+            
+            @media (max-width:992px) {
+                .main-wrapper .nav-trigger {
+                    display: contents;
+                }
+                header.topbar,
+                nav {
+                    display: none;
+                }
+                .slider {
+                    margin-top: -5rem;
+                }
+                .slider .slider-right {
+                    right: -160px;
+                    top: 100px;
+                }
+                .top-products .product-btn-next,
+                .top-products .product-btn-prev {
+                    display: none !important;
+                }
+                .blog .blog-main {
+                    flex-direction: column;
+                }
+                .blog .blog-warrper {
+                    flex-direction: column;
+                    margin-right: 0 !important;
+                    margin-bottom: 4rem;
+                }
+                footer .f-insta-post .footer-instagram {
+                    width: calc(1/2*100% - (1 - 1/2)*10px);
+                    margin-bottom: 10px;
+                }
+            }
+            /* media */
+            
+            @media (max-width:768px) {
+                .ourservices .services-card {
+                    margin-right: 0;
+                }
+                .flex-column {
+                    flex-direction: column;
+                }
+                .fresh-meal .about-meal-wrap .btn-secondary {
+                    margin: auto;
+                }
+                footer .footer-nav {
+                    margin-right: 0;
+                    text-align: left;
+                    margin-bottom: 2rem;
+                }
+                footer .footer-nav .btn-secondary {
+                    float: left;
+                }
+                .all-left {
+                    text-align: left;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+            }
+            /* media */
+            
+            @media (max-width:576px) {
+                .slider .slider-right {
+                    right: -235px;
+                    top: 150px;
+                }
+                .btn {
+                    padding: 0.75rem 1rem;
+                }
+                .slider {
+                    margin-top: -3rem;
+                }
+                .big-deals .timer .timer-box {
+                    margin: 0 0.2rem;
+                }
+                .blog button {
+                    margin-top: 0rem;
+                }
+                .section-heading h1 {
+                    margin-bottom: 3rem;
+                }
+                footer.section-padding {
+                    padding-bottom: 0px;
+                }
+                .flex-column-mob {
+                    flex-direction: column;
+                }
+                .map.flex-1 {
+                    height: 300px;
+                }
+            }
