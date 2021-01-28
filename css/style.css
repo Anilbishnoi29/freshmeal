@@ -865,3 +865,7 @@ footer.copyright a:hover {
     overflow-x: auto;
     transition: all 0.5s ease-in-out;
 }
+
+.mobile-b {
+    display: none;
+}

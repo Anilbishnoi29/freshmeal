@@ -83,12 +83,6 @@
                 .flex-column-lg {
                     flex-direction: column;
                 }
-                footer .footer-links {
-                    display: flex;
-                }
-                footer .footer-links .footer-nav:first-child {
-                    margin-right: 1rem;
-                }
             }
             /* media */
             
@@ -119,6 +113,21 @@
                     text-align: center;
                     align-items: center;
                     justify-content: center;
+                }
+                .desktop-b {
+                    display: none;
+                }
+                .mobile-b {
+                    display: contents;
+                }
+                .footer-links.mobile-b {
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    justify-content: end;
+                }
+                .footer-links.mobile-b .footer-nav:first-child {
+                    margin-right: 2rem;
                 }
             }
             /* media */
