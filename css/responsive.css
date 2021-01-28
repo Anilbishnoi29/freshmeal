@@ -57,11 +57,37 @@
                 .blog .blog-warrper {
                     flex-direction: column;
                     margin-right: 0 !important;
-                    margin-bottom: 4rem;
+                    margin-bottom: 3rem;
+                }
+                .blog .blog-warrper .blog-padding {
+                    padding: 1.5rem;
+                }
+                .blog .blog-warrper .blog-content-top span {
+                    margin-left: 1rem;
+                    float: right;
+                }
+                .blog .blog-warrper .blog-content-top {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .contacts .contact-detail {
+                    justify-content: start;
+                }
+                .contacts .section-heading h1 {
+                    margin-bottom: 7rem;
                 }
                 footer .f-insta-post .footer-instagram {
                     width: calc(1/2*100% - (1 - 1/2)*10px);
                     margin-bottom: 10px;
+                }
+                .flex-column-lg {
+                    flex-direction: column;
+                }
+                footer .footer-links {
+                    display: flex;
+                }
+                footer .footer-links .footer-nav:first-child {
+                    margin-right: 1rem;
                 }
             }
             /* media */
@@ -89,6 +115,11 @@
                     align-items: flex-start;
                     justify-content: flex-start;
                 }
+                .all-center {
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
             /* media */
             
@@ -110,7 +141,7 @@
                     margin-top: 0rem;
                 }
                 .section-heading h1 {
-                    margin-bottom: 3rem;
+                    margin-bottom: 5rem;
                 }
                 footer.section-padding {
                     padding-bottom: 0px;
