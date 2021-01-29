@@ -563,7 +563,7 @@ section {
 }
 
 .big-deals .timer .timer-box:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
 }
 
 .big-deals .timer span:first-child {
